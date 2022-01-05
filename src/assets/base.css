@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/* 重要文字突出显示 */
+.emphasis {
+    margin-left: 5px;
+    color: #333;
+    font-weight: bold;
+}
+/* 红色上箭头 */
+.increase {
+    width: 0;
+    height: 0;
+    border: 3px solid transparent;
+    border-bottom-color: red;
+    margin: 3px 0 0 5px;
+}
+/* 绿色下箭头 */
+.decrease {
+    width: 0;
+    height: 0;
+    border: 3px solid transparent;
+    border-top-color: green;
+    margin: 5px 0 3px 5px;
+}

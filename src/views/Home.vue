@@ -1,18 +1,32 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+    <div class="home">
+        <top-view/>
+        <sales-view/>
+        <bottom-view/>
+        <map-view/>
+    </div>
 </template>
-
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
-
+// 引入组件
+import TopView from '@/components/TopView'
+import SalesView from '@/components/SalesView'
+import BottomView from '@/components/BottomView'
+import MapView from '@/components/MapView'
 export default {
-  name: 'Home',
-  components: {
-    HelloWorld
-  }
+    components: {
+        TopView,
+        SalesView,
+        BottomView,
+        MapView
+    }
 }
 </script>
+<style lang="less" scoped>
+    .home {
+        background-color: #eee;
+        padding: 20px;
+        height: 100%;
+        width: 100%;
+        box-sizing: border-box;
+    }
+</style>
