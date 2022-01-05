@@ -1,0 +1,5 @@
+/* vue-echarts组件中，具有默认的.echarts类名，为了避免为每一个组件设置相同的样式，这里作为公共样式调用 */
+.echarts {
+    width: 100%;
+    height: 100%;
+}
